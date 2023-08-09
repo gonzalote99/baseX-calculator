@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <title>baseX calculator</title>
+</head>
+<body>
+    <div class="box">
+     <div id="con">
+     <label>enter number:</label>
+     <input name="to_convert" id="to_convert" type="text" style="width: 70%;"></div>
+     </div>
+     <br>
+     <div id="val">
+     <label>base_X: </label>
+     <input name="x" id="x" min="2" type="number" />
+     <br>
+     <br>
+     <label>base_Y: </label>
+     <input name="y" id="y" min="2" type="number" />
+     </div>
+     <br><br>
+     <button id="but" onclick="convert()" style="width: 40%" >calculate</button> 
+      <h2 id="result" style="margin-top: 10%;">result</h2>
+      <input readonly id="res" style="width: 20%;">
+    </div>
+</body>
+</html>
